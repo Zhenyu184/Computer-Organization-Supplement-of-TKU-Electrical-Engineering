@@ -4,6 +4,9 @@ str1:	.asciiz "請輸入費式數列參數:"
 str2:	.asciiz "答案:"
 		.extern foobar 4
 	
+	
+	###   注意這是半成品，解答將於10/26助教課公布    ###
+	
         .text
         .globl main
 main:	# 主程式開始
@@ -32,5 +35,5 @@ fib:	# 寫下你的費式數列含式
 
 		
 		jr $ra					# 跳到$ra值的位置
-		
+
 
